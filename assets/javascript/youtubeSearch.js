@@ -10,7 +10,7 @@ function searchYoutubeSource(target) {
     var searchTerm = $("#tubeSearch").val().trim();
 
     var queryURL =
-        "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=" + searchTerm
+        "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=13&tags=sounds&q=" + searchTerm
         + "&key=AIzaSyCiofi6n_Cz7LalBpaa87aEV_PTQWKtNHo";
 
     // Performing our AJAX GET request
